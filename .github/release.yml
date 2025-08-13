@@ -1,0 +1,36 @@
+changelog:
+  categories:
+    - title: 破壊的変更
+      labels:
+        - breaking
+    - title: 新機能
+      labels:
+        - feature
+        - enhancement
+    - title: バグ修正
+      labels:
+        - bug
+    - title: ドキュメント
+      labels:
+        - docs
+        - documentation
+    - title: 内部改善
+      labels:
+        - chore
+        - refactor
+        - test
+        - ci
+    - title: その他の変更
+      labels:
+        - "*"
+  exclude:
+    labels:
+      - skip-changelog
+    authors:
+      - dependabot
+      - dependabot[bot]
+      - github-actions
+change-template: "- $TITLE (#$NUMBER) by @$AUTHOR"
+template: |
+  変更点
+  $CHANGES
